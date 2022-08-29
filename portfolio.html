@@ -21,44 +21,49 @@
   <body class="page-portfolio">
     <header class="header-portfolio">
       <!-- Navigation -->
-      <nav class="main-nav">
-        <a class="logo" href="./index.html"
-          >Web <span class="logo-link">Studio</span>
-        </a>
-        <ul class="list-nav">
+     <div class="header-contanier">
+        <nav class="main-nav">
+          <a class="logo" href="./index.html"
+            >Web <span class="logo-link">Studio</span>
+          </a>
+          <ul class="list-nav">
+            <li class="list-item">
+              <a
+                class="link current"
+                href="./index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Студия
+              </a>
+            </li>
+
+            <li class="list-item">
+              <a class="link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="./index.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-contact">
           <li class="list-item">
-            <a
-              class="link"
-              href="./index.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Студия
+            <a class="link-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com
             </a>
           </li>
-
           <li class="list-item">
-            <a class="link current" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="list-item">
-            <a class="link" href="./index.html">Контакти</a>
+            <a class="link-contact" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li class="list-item">
-          <a class="link-contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com
-          </a>
-        </li>
-        <li class="list-item">
-          <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Portfolio navigation  -->
     <main>
       <!-- Our projects-->
       <section class="button-nav"></section>
+      <div class="container">
         <h1 class="tittle-visually-hidden">Наші роботи</h1>
           <ul class="list-nav-portfolio">
             <li class="btn-container">
@@ -77,8 +82,6 @@
               <button class="btn-portfolio" type="button">Маркетинг</button>
             </li>
           </ul>
-        </section>
-        <section class="main-section-portfolio">
         <ul class="list-portfolio">
           <li class="list-item-portfolio">
             <a
@@ -198,6 +201,7 @@
             >
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
