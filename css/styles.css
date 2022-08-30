@@ -102,6 +102,7 @@ header {
 }
 
 .list-nav {
+  display: block;
   display: flex;
   list-style: none;
   margin-top: 0;
@@ -331,6 +332,7 @@ h2 {
 
   font-size: 18px;
   line-height: 2;
+  text-align: left;
 }
 .list-portfolio {
   list-style: none;
@@ -390,6 +392,7 @@ h2 {
   gap: 30px;
   padding: 0;
   margin: 0;
+  margin-right: 30px;
 }
 .list-nav-portfolio {
   justify-content: center;
@@ -398,12 +401,8 @@ h2 {
 .list-item-portfolio {
   flex-basis: 370px;
 }
-
-.list-item-portfolio :nth-child(3n) {
+.list-portfolio:nth-child(3n) {
   margin-right: 0;
-}
-.list-item-portfolio :nth-last-child(-n + 3) {
-  margin-bottom: 0;
 }
 .container {
   width: 1200px;
@@ -411,4 +410,7 @@ h2 {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 114px;
+}
+.container-list-portfolio {
 }
