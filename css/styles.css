@@ -68,7 +68,7 @@ header {
 /* Navigation */
 .main-nav {
   display: flex;
-  justify-content: first baseline;
+  align-items: center;
 }
 .main-nav .link {
   font-weight: 500;
